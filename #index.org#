@@ -1,0 +1,24 @@
+* Project Setup
+
+#+BEGIN_SRC shell
+  cd $HOME/Sources/ChicagoBoss/
+  make app PROJECT=mizahnyx7dfps2014
+  cd ..
+  mizahnyx7dfps2014 ~/Projects/
+  cd ~/Projects/mizahnyx7dfps2014/
+  git init
+  git gui
+  vi .gitignore
+#+END_SRC
+
+Contents of the .gitignore file:
+#+BEGIN_SRC fundamental
+  *.beam
+  deps
+  log
+  ebin
+#+END_SRC
+
+[[https://github.com/ChicagoBoss/ChicagoBoss/wiki/An-Evening-With-Chicago-Boss#logins][An Evening with Chica
+go Boss (Login)]]
+[[http://shane.logsdon.io/erlang/implementing-user-authentication-with-bcrypt-in-chicagoboss/][Implementing User Authentication with bcrypt in ChicagoBoss]]

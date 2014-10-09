@@ -1,4 +1,4 @@
--module(user_account, [Id, UserName, DisplayName, PasswordHash]).
+-module(user_account, [Id, UserName]).
 -compile(export_all).
 
 secret_string() ->

@@ -1,4 +1,7 @@
-m
+*~
+*.beam
 deps
 log
 ebin
+*.pdf
+*.tex

@@ -28,19 +28,19 @@ module.exports = (grunt)->
         expand: true
         cwd: 'src/lib/'
         src: ['**/*.coffee']
-        dest: 'out/lib/'
+        dest: 'priv/static/lib/'
         ext: '.js'
       test:
         expand: true
         cwd: 'src/test/'
         src: ['**/*.coffee']
-        dest: 'out/test/'
+        dest: 'priv/static/test/'
         ext: '.js'
     simplemocha:
       all:
         src: [
           'node_modules/should/should.js'
-          'out/test/**/*.js'
+          'priv/static/test/**/*.js'
         ]
         options:
           globals: ['should']

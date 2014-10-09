@@ -9,3 +9,5 @@ ebin
 *.tex
 .#*
 #*
+/priv/static/lib/
+/priv/static/test/

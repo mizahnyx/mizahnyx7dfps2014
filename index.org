@@ -19,5 +19,6 @@ Contents of the .gitignore file:
   ebin
 #+END_SRC
 
-[[https://github.com/ChicagoBoss/ChicagoBoss/wiki/An-Evening-With-Chicago-Boss#logins][An Evening with Chicago Boss (Login)]]
+[[https://github.com/ChicagoBoss/ChicagoBoss/wiki/An-Evening-With-Chicago-Boss#logins][An Evening with Chica
+go Boss (Login)]]
 [[http://shane.logsdon.io/erlang/implementing-user-authentication-with-bcrypt-in-chicagoboss/][Implementing User Authentication with bcrypt in ChicagoBoss]]
